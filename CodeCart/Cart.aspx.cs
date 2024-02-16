@@ -30,7 +30,6 @@ namespace CodeCart
         protected void BtnRemove(object sender, EventArgs e)
         {
             string buttonId = ((Button)sender).ID;
-
             int index = int.Parse(buttonId.Split('_')[1]);
             Product.Cart.RemoveAt(index);
             Response.Redirect("Cart.aspx");

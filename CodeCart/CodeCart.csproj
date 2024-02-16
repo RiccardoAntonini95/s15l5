@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="DetailsPage.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Style\StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
     <Content Include="Cart.aspx" />

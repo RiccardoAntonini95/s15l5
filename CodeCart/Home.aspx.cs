@@ -16,7 +16,7 @@ namespace CodeCart
 
             for (int i = 0; i < Product.ProductsList.Count; i++)
             {
-                htmlContent += $@"<div class='col'>
+                htmlContent += $@"<div class='col py-3'>
                             <div class='card h-100'>
                               <img src='{Product.ProductsList[i].ImageUrl}' class='card-img-top' alt='{Product.ProductsList[i].Description}'>
                               <div class='card-body'>
